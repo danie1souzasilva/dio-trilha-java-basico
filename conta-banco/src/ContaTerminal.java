@@ -11,6 +11,8 @@ public class ContaTerminal {
         int conta = entrada.nextInt();
         System.out.print("Digite sua Agencia: ");
         String agencia = entrada.next();
+
+        //preferi inicializar a variael pq não faz sentido pedi o saldo para o usuario
         System.out.print("Seu saldo é: " + saldo);
 
 
